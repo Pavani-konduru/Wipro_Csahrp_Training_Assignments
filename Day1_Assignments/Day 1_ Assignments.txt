@@ -1,0 +1,98 @@
+                                            DAY-1
+
+--->To calculate Sum of the Digits of the Number
+---------------------------------------------------------
+Algorithm
+
+1. Declare the value for digit and sum equal to 0
+2. initialize variable n
+3. separate the last digit from the number using %10 operator
+4. add  rremainder to result variable 
+5. then remove the last digit from the number using /10
+6. store the result
+7. print the result
+
+
+pseudocode
+1. int digit,sum=0
+2. int n=456
+3. digit = n%10
+4. sum = sum + digit
+5. n = n/10
+6. Declare result
+7. result=sum
+8. print result
+
+--->To calculate Area of a rectangle
+------------------------------------------------
+algorithm
+1. Declare variable called shape
+2. check if shape is Rectangle
+            Declare length and width 
+            initialize the value of length and width
+            declare area of rectangle
+            print area of rectangle
+2. check if shape is Square
+            Declare side
+            initialize the value of side
+            declare area of square
+            print area of square
+2. check if shape is Circle
+            Declare pi and radius
+            initialize the value of pi and radius
+            declare area of circle
+            print area of cicle
+      
+
+1. Declare string shape
+2. if shape = = "Rectangle"
+      Declare int l*w
+      initialize l, w
+      declare area of rectangle
+      area of rectangle= w*l
+      print area of rectangle
+3. if shape == "square"
+       Declare int s
+       intialize s
+       declare area of square
+       area of square =s*s
+       print area of square
+4. if shape == "circle"
+      Declare string shape
+      int r,pi
+      intialize pi=3.14
+      declare area of circle
+      area of circle = pi*r^2
+      print area of Circle
+
+--->Average of 5 marks
+-------------------------
+algorithm
+1. Declare variables first, second, third, fourth and fifth 
+2. initialize the variables
+3. Declare avg
+4. store the result in avg
+5. if average is 75 to 90 print excellent
+6. if average is 60 to 75 print good
+7. if average is 45 to 60 print pass
+or average is fail
+
+pseudocode:-
+
+1. int first, second, third, fourth, fifth
+2. initialize first, second, third, fourth, fifth
+3. Declare avg
+4. avg=(first+ second+ third+ fourth+ fifth)/5
+5. if avg>75 and avg<90
+   print "Excellent"
+6. elseif avg>60 and avg<75
+   print "Good"
+7. elseif avg>45 and avg>60
+   print "Pass"
+8.else fail
+
+
+
+
+
+

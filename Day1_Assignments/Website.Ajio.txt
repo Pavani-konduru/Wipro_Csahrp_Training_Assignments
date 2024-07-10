@@ -1,0 +1,23 @@
+1.www.ajio.com
+2.if login credentials there login or else sign up and then login
+3.it shows menu like -->
+                  men
+                  women
+                  kids
+                  beauty
+                  home and kitchen
+4.on just landing the mouse over the menu it shows one pop up window here we can shop by categories and brands or else
+5.we can search particular product by entering the product name in search bar.
+6.we can add filters we want like-->
+                     gender
+                     price
+                     brand
+                     color
+7.sort the items based on price,ratings.
+8.select the item which we want to buy
+9.we can add it to bag to buy now or add to cart for later purchase.
+10.we should select size it shows an alert 
+11.it redirects to another page proceed shopping if coupon applies means means we can apply or else not.
+12.redirects to paymemt method 
+13.payment through online payment or cash on delivey
+14.click on place order and confirm the order
