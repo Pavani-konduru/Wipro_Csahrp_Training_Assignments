@@ -1,0 +1,60 @@
+1. Why do we use Functions in programming languages?
+*****************************************************
+
+Ans. * A function is a group of statements/ block of code that performs a specific task.
+     * Functions provide better modularity for your application and a high degree of code reusability.
+
+Some of the key benefits of using functions are:
+-------------------------------------------------
+--> to improves the readability of code.
+--> Enables reusability and reduces redundancy.
+--> Makes a code modular.
+--> Provides abstraction functionality.
+--> The program becomes easy to understand and manage.
+--> Breaks an extensive program into smaller and simpler pieces.
+
+2.Diff between parameters and arguments?
+****************************************************
+
+Ans. * Parameters: Variables defined in the function declaration. Eg: function sum(param1, param2)
+       Arguments: Actual values or variables passed to the function. Eg: sum(3,5)
+
+     * A parameter is a variable defined by a method that receives a value when a method is called. It serves as a placeholder for data that will be provided when the function or method is called. 
+       Arguments is the value that is passed to a method when it is invoked. These values serve as inputs to the function during its execution.
+
+    * Parameters are used to receive the arguments passed to a function when it is called.
+      They are used to supply the values to the parameters of a function. 
+ Note: The number of arguments must match the number of parameters in the function definition.
+     
+3. What is Function Overloading?
+**********************************************
+
+Ans. * Function Overloading defines that two or more methods in a class with the same name but different numbers, types, and order of parameters - it is called method overloading.
+
+4. How do implement function Overloading in C#?
+************************************************
+Ans. *Method overloading can be achieved by the following:
+       --> By changing the number of parameters in a method.
+       --> By changing the order of parameters in a method.
+       --> By using different data types for parameters.
+
+5.When do we use ref and out keywords in functions in C#?
+**********************************************************
+Ans. * We use the ref keyword when a called parameter needs to update the parameter (passed). 
+       We use the out keyword when a called method needs to update multiple parameters (passed).
+
+     * Ref keyword used to pass a variable as a reference to a method.
+       Out keyword used to return multiple values from a method.
+
+     * Ref parameter should assign the value before calling.
+       out parameter is not required to assign the value by calling the function.
+
+6. Can we return multiple values from a function?
+**************************************************
+Ans. No, you can't return multiple values from a function in C#. In C#, a method can only return a single value.
+     
+   * Using a custom class:-
+        You can create a custom class to store the multiple values and return an object of that class from the method.
+   * Using out parameters:-
+        C# allows you to use out parameters to return multiple values from a method.
+
