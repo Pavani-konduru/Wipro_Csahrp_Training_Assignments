@@ -1,0 +1,48 @@
+                                                       Day-8
+                                                   _____________
+
+1. What is the Significance of static members in C#?
+*****************************************************
+Ans.--> The static member is callable on a class even when no instance of the class exists. 
+    --> The static member is always accessed by the class name, not the instance name.
+    --> Static methods can be overloaded but not overridden, because they belong to the class, and not to any instance of the 
+    --> static members is used for recording data common to all objects of a class. 
+        class.
+
+2. Difference Between Static and Instance Members?
+***************************************************
+Ans. ==> Static members are considered to be part of the class. 
+         Instance members are associated with instances of a type.
+     ==> a static variable is initialized one and only one time.
+         Instance variables are initialized for 0 times if no instance is created and n times if n instances are created.
+     ==> static classes are classes that cannot be instantiated and contain only static members.
+         Non-static classes, also known as instance classes, can be instantiated and contain both static and instance members.
+         They are useful for representing objects that have a specific state and behavior.  
+
+3. How to use static keyword and how to access static members?   
+*************************************************************** 
+Ans. --> It can be used with variables, methods, blocks and nested classes. 
+     --> It is a keyword which is used to share the same variable or method of a given class.
+     --> To access a static member through the name of the class in which it is declared. 
+     --> Static is a modifier in C# which is applicable for the following: 
+            Classes
+            Variables
+            Methods
+            Constructor
+     --> It is also applicable to properties, event, and operators.
+     --> To create a static member(class, variable, methods, constructor), precede its declaration with the keyword static. 
+     --> When a member is declared static, it can be accessed with the name of its class directly.
+
+4. How to Override the ToString() method in your class?
+********************************************************
+Ans. To override the ToString method in your class or struct:
+
+    ==> Declare a ToString method with the following modifiers and return type: public override string ToString(){}
+    ==> Implement the method so that it returns a string.
+
+
+
+
+
+
+               
