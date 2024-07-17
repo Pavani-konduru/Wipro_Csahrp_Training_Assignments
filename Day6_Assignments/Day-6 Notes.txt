@@ -1,0 +1,41 @@
+1.What is the significance of index in arrays?
+************************************************
+
+Ans. An index is a numerical value that indicates the position of an element within the array. 
+    --> Element Access: Indices allow you to access individual elements stored in the array. Each element in an array is      assigned a unique index starting from 0.
+    --> Ordered Collection: Arrays maintain the order of elements based on their indices. This means the first element is stored at index 0, the second at index 1, and so on. 
+    --> Flexibility: Indices allow for flexibility in data manipulation. You can easily modify or update elements in an array using their indices.   
+    --> Memory Allocation: Arrays typically allocate contiguous blocks of memory to store elements. The index helps in calculating the memory address of each element. 
+
+2. Can we use Array variables as parameters in function?
+**********************************************************
+
+Ans. Yes, in many programming languages, you can use arrays as parameters in functions. This allows you to pass an entire array or a portion of an array to a function, enabling the function to operate on or manipulate the array elements as needed.
+
+  --> It allows functions to work with collections of data efficiently and facilitates code reuse and modular design.
+
+3. Study the bubble sort algorithm to sort the array of numbers?
+****************************************************************
+
+Ans. Bubble Sort Algorithm
+     -----------------------
+     Bubble sort is a comparison-based algorithm that works by repeatedly stepping through the list to be sorted, comparing                   adjacent items and swapping them if they are in the wrong order. 
+     The pass through the list is repeated until no swaps are needed, which indicates that the list is sorted.
+
+Steps of Bubble Sort:
+-----------------------
+Compare Adjacent Elements: 
+            Start with the first two elements of the array and compare them. If the first element is greater than the second element, swap them.
+
+Continue Comparing and Swapping: 
+            Move to the next pair of adjacent elements, compare them, and swap if necessary. Continue this process until the end of the array.
+
+Iterate Through the Array:
+           Repeat the above steps for all elements in the array. Each pass through the array places the next largest element in its correct position.
+
+Repeat Until Sorted: 
+           Continue the process until no more swaps are needed during a pass through the array, which means the array is sorted.
+
+
+
+
