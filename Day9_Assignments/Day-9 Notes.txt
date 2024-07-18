@@ -1,0 +1,87 @@
+                                                 Day-9
+                                             _____________
+1. Why do we use Collections in C#? Examples of the Collection Classes?
+************************************************************************
+Ans. --> In C#, collections are used to manage groups of related objects.
+     --> They provide a way to store, organize, and manipulate data efficiently. 
+     --> Here are several reasons why collections are commonly used in C#:
+          . Grouping Data
+          . Dynamic Size
+          . performance
+          . Typing Safety
+          . Standardization.
+Examples of Collection Classes in C#:
+List<T>:
+---------
+Represents a list of objects that can be accessed by index. It dynamically resizes itself as elements are added or removed
+
+..Dictionary<TKey, TValue>:
+-----------------------------
+Stores key-value pairs where each key must be unique. It allows fast lookup of values using keys.
+
+..HashSet<T>:
+-------------
+Stores unique elements, automatically removing duplicates. It provides set operations such as union, intersection, and difference.
+
+..Queue<T>:
+-----------
+Represents a first-in, first-out (FIFO) collection of objects.
+
+..Stack<T>:
+-----------
+Represents a last-in, first-out (LIFO) collection of objects.
+
+..LinkedList<T>:
+----------------
+Represents a doubly linked list of objects, allowing efficient insertion and removal of elements.
+
+2.Diff Between Arrays Vs ArrayList Vs List?
+*******************************************
+Ans.-->. An array is a collection of elements of the same type, stored in 
+         contiguous memory locations.
+       . An ArrayList is a dynamic array that can hold elements of different data   
+         types in C#.
+       . Lists are an ordered collection of data or items, which can be different 
+         types.
+ 
+    -->. Arrays are basic, fixed-size collections with good performance for direct
+         element access. 
+       . ArrayList provides flexibility with dynamic resizing but sacrifices type 
+         safety and may incur performance overhead due to boxing.
+       . List<T> offers type safety, better performance, and flexibility with 
+         dynamic resizing, making it a preferred choice in most scenarios where a        
+         generic collection is needed.
+
+    -->. Array is Value Type Elements.
+       . ArrayList is Reference type Elements.
+
+3.Check the Definitions of the following items in Graphs Concept under DSA:
+   a. Directed Graph
+   b. Undirected Graph
+   c. Weighted Graph
+
+Ans. In the context of Data Structures and Algorithms (DSA), particularly in graph theory, the following are definitions of different types of graphs:
+
+a. Directed Graph (Digraph)
+----------------------------
+        Definition: A directed graph, or digraph, is a graph in which edges have a direction associated with them. Each edge is represented as an ordered pair (𝑢,𝑣) (u,v), where 𝑢u is the starting  vertex (tail) and 𝑣v is the ending vertex (head). This indicates that there is a directed edge from vertex 𝑢u to vertex 𝑣v, but not necessarily in the opposite direction unless another directed edge (𝑣,𝑢)(v,u) exists.
+
+b. Undirected Grap
+-------------------
+        Definition:  An undirected graph is a graph in which edges have no direction. Each edge connects two vertices and is typically represented as an unordered pair {𝑢,𝑣}{u,v}, indicating that there is a bidirectional connection between vertex 𝑢u and vertex 𝑣v.
+
+c. Weighted Graph:
+------------------
+         Definition: A weighted graph is a graph in which each edge has an associated weight or cost. This weight could represent various properties such as distance, cost, capacity, etc. Weighted graphs are used to model scenarios where the relationships between vertices have different degrees of importance or cost associated with them.
+
+    a. Directed Graph: Edges have a direction, represented as (𝑢,𝑣) (u,v).
+    b. Undirected Graph: Edges have no direction, represented as {𝑢,𝑣} {u,v}.
+    c. Weighted Graph: Edges have weights associated with them, representing some measure of cost 
+        or value.
+
+
+
+
+
+
+
